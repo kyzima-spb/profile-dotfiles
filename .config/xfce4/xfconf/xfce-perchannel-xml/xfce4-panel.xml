@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="22"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="14"/>
+        <value type="int" value="13"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="9"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="debian-logo"/>
+      <property name="show-button-title" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="dropbox"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="tixati"/>
+        <value type="string" value="modem manager gui"/>
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="аплет networkmanager"/>
+        <value type="string" value="сетевое соединение ethernet «wired connection 1» активно"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-3637"/>
+        <value type="string" value="dropbox-client-3641"/>
+        <value type="string" value="dropbox-client-3634"/>
+        <value type="string" value="dropbox-client-4257"/>
+        <value type="string" value="dropbox-client-3653"/>
+        <value type="string" value="dropbox-client-3672"/>
+        <value type="string" value="dropbox-client-3710"/>
+        <value type="string" value="dropbox-client-3723"/>
+        <value type="string" value="dropbox-client-4441"/>
+        <value type="string" value="dropbox-client-6193"/>
+        <value type="string" value="dropbox-client-4662"/>
+        <value type="string" value="dropbox-client-4516"/>
+        <value type="string" value="dropbox-client-76606"/>
+        <value type="string" value="dropbox-client-4549"/>
+        <value type="string" value="dropbox-client-4752"/>
+        <value type="string" value="dropbox-client-5275"/>
+        <value type="string" value="dropbox-client-4539"/>
+        <value type="string" value="dropbox-client-4540"/>
+        <value type="string" value="dropbox-client-4604"/>
+        <value type="string" value="dropbox-client-4650"/>
+        <value type="string" value="dropbox-client-111992"/>
+        <value type="string" value="dropbox-client-4526"/>
+        <value type="string" value="dropbox-client-5345"/>
+        <value type="string" value="dropbox-client-4525"/>
+        <value type="string" value="dropbox-client-5209"/>
+        <value type="string" value="dropbox-client-4552"/>
+        <value type="string" value="dropbox-client-5990"/>
+        <value type="string" value="dropbox-client-4556"/>
+        <value type="string" value="dropbox-client-5221"/>
+        <value type="string" value="dropbox-client-6339"/>
+        <value type="string" value="dropbox-client-5994"/>
+        <value type="string" value="dropbox-client-4388"/>
+        <value type="string" value="dropbox-client-4640"/>
+        <value type="string" value="dropbox-client-4523"/>
+        <value type="string" value="dropbox-client-4533"/>
+        <value type="string" value="dropbox-client-5208"/>
+        <value type="string" value="dropbox-client-4937"/>
+        <value type="string" value="dropbox-client-4702"/>
+        <value type="string" value="dropbox-client-5481"/>
+        <value type="string" value="dropbox-client-4528"/>
+        <value type="string" value="dropbox-client-5218"/>
+        <value type="string" value="dropbox-client-31179"/>
+        <value type="string" value="dropbox-client-4521"/>
+        <value type="string" value="dropbox-client-4490"/>
+        <value type="string" value="dropbox-client-5346"/>
+        <value type="string" value="dropbox-client-4560"/>
+        <value type="string" value="dropbox-client-4520"/>
+        <value type="string" value="dropbox-client-4513"/>
+        <value type="string" value="dropbox-client-5214"/>
+        <value type="string" value="dropbox-client-4695"/>
+        <value type="string" value="dropbox-client-4739"/>
+        <value type="string" value="dropbox-client-4690"/>
+        <value type="string" value="dropbox-client-4661"/>
+        <value type="string" value="dropbox-client-4648"/>
+        <value type="string" value="dropbox-client-4693"/>
+        <value type="string" value="dropbox-client-4706"/>
+        <value type="string" value="dropbox-client-4683"/>
+        <value type="string" value="dropbox-client-4643"/>
+        <value type="string" value="dropbox-client-8076"/>
+        <value type="string" value="dropbox-client-4887"/>
+        <value type="string" value="dropbox-client-4657"/>
+        <value type="string" value="dropbox-client-4701"/>
+        <value type="string" value="dropbox-client-4855"/>
+        <value type="string" value="dropbox-client-4832"/>
+        <value type="string" value="dropbox-client-5019"/>
+        <value type="string" value="dropbox-client-4656"/>
+        <value type="string" value="dropbox-client-4703"/>
+        <value type="string" value="dropbox-client-4696"/>
+        <value type="string" value="dropbox-client-5353"/>
+        <value type="string" value="dropbox-client-4664"/>
+        <value type="string" value="dropbox-client-5110"/>
+        <value type="string" value="dropbox-client-5046"/>
+        <value type="string" value="dropbox-client-4647"/>
+        <value type="string" value="dropbox-client-4636"/>
+        <value type="string" value="dropbox-client-4755"/>
+        <value type="string" value="dropbox-client-4674"/>
+        <value type="string" value="dropbox-client-4681"/>
+        <value type="string" value="dropbox-client-4653"/>
+        <value type="string" value="dropbox-client-4676"/>
+        <value type="string" value="dropbox-client-4669"/>
+        <value type="string" value="dropbox-client-4655"/>
+        <value type="string" value="dropbox-client-6065"/>
+        <value type="string" value="dropbox-client-4667"/>
+        <value type="string" value="dropbox-client-5492"/>
+        <value type="string" value="dropbox-client-24869"/>
+        <value type="string" value="dropbox-client-4644"/>
+        <value type="string" value="dropbox-client-4603"/>
+        <value type="string" value="dropbox-client-5220"/>
+        <value type="string" value="dropbox-client-5024"/>
+        <value type="string" value="dropbox-client-5219"/>
+        <value type="string" value="dropbox-client-5234"/>
+        <value type="string" value="dropbox-client-4571"/>
+        <value type="string" value="dropbox-client-4568"/>
+        <value type="string" value="dropbox-client-4764"/>
+        <value type="string" value="dropbox-client-4579"/>
+        <value type="string" value="dropbox-client-4561"/>
+        <value type="string" value="dropbox-client-5378"/>
+        <value type="string" value="dropbox-client-4574"/>
+        <value type="string" value="dropbox-client-4575"/>
+        <value type="string" value="dropbox-client-4594"/>
+        <value type="string" value="dropbox-client-4589"/>
+        <value type="string" value="dropbox-client-4609"/>
+        <value type="string" value="dropbox-client-5436"/>
+        <value type="string" value="dropbox-client-4602"/>
+        <value type="string" value="dropbox-client-4570"/>
+        <value type="string" value="dropbox-client-4542"/>
+        <value type="string" value="dropbox-client-4537"/>
+        <value type="string" value="dropbox-client-4532"/>
+        <value type="string" value="dropbox-client-5485"/>
+        <value type="string" value="dropbox-client-4546"/>
+        <value type="string" value="dropbox-client-4529"/>
+        <value type="string" value="dropbox-client-4697"/>
+        <value type="string" value="dropbox-client-4486"/>
+        <value type="string" value="dropbox-client-4663"/>
+        <value type="string" value="dropbox-client-4985"/>
+        <value type="string" value="dropbox-client-5119"/>
+        <value type="string" value="dropbox-client-5186"/>
+        <value type="string" value="dropbox-client-6103"/>
+        <value type="string" value="dropbox-client-4506"/>
+        <value type="string" value="dropbox-client-4497"/>
+        <value type="string" value="dropbox-client-4482"/>
+        <value type="string" value="dropbox-client-4673"/>
+        <value type="string" value="dropbox-client-4535"/>
+        <value type="string" value="dropbox-client-4536"/>
+        <value type="string" value="dropbox-client-244352"/>
+        <value type="string" value="dropbox-client-5257"/>
+        <value type="string" value="dropbox-client-4530"/>
+        <value type="string" value="dropbox-client-4519"/>
+        <value type="string" value="dropbox-client-4466"/>
+        <value type="string" value="dropbox-client-4421"/>
+        <value type="string" value="dropbox-client-4606"/>
+        <value type="string" value="dropbox-client-4566"/>
+        <value type="string" value="dropbox-client-4569"/>
+        <value type="string" value="dropbox-client-4503"/>
+        <value type="string" value="dropbox-client-4541"/>
+        <value type="string" value="dropbox-client-5313"/>
+        <value type="string" value="dropbox-client-5099"/>
+        <value type="string" value="dropbox-client-4659"/>
+        <value type="string" value="dropbox-client-4840"/>
+        <value type="string" value="dropbox-client-4668"/>
+        <value type="string" value="dropbox-client-6234"/>
+        <value type="string" value="dropbox-client-5298"/>
+        <value type="string" value="dropbox-client-5364"/>
+        <value type="string" value="dropbox-client-4619"/>
+        <value type="string" value="dropbox-client-4678"/>
+        <value type="string" value="dropbox-client-4742"/>
+        <value type="string" value="dropbox-client-4621"/>
+        <value type="string" value="dropbox-client-4620"/>
+        <value type="string" value="dropbox-client-4691"/>
+        <value type="string" value="dropbox-client-4646"/>
+        <value type="string" value="dropbox-client-3296"/>
+        <value type="string" value="dropbox-client-3306"/>
+        <value type="string" value="dropbox-client-3452"/>
+        <value type="string" value="dropbox-client-3282"/>
+        <value type="string" value="dropbox-client-3347"/>
+        <value type="string" value="dropbox-client-27580"/>
+        <value type="string" value="dropbox-client-3291"/>
+        <value type="string" value="dropbox-client-3096"/>
+        <value type="string" value="dropbox-client-3232"/>
+        <value type="string" value="dropbox-client-3401"/>
+        <value type="string" value="dropbox-client-3241"/>
+        <value type="string" value="dropbox-client-3325"/>
+        <value type="string" value="dropbox-client-2820"/>
+        <value type="string" value="dropbox-client-3258"/>
+        <value type="string" value="dropbox-client-3239"/>
+        <value type="string" value="dropbox-client-3234"/>
+        <value type="string" value="dropbox-client-3242"/>
+        <value type="string" value="dropbox-client-3262"/>
+        <value type="string" value="dropbox-client-3628"/>
+        <value type="string" value="dropbox-client-4290"/>
+        <value type="string" value="dropbox-client-3285"/>
+        <value type="string" value="dropbox-client-3260"/>
+        <value type="string" value="dropbox-client-3261"/>
+        <value type="string" value="dropbox-client-3212"/>
+        <value type="string" value="dropbox-client-3198"/>
+        <value type="string" value="dropbox-client-3179"/>
+        <value type="string" value="dropbox-client-3196"/>
+        <value type="string" value="dropbox-client-3199"/>
+        <value type="string" value="dropbox-client-3231"/>
+        <value type="string" value="dropbox-client-3217"/>
+        <value type="string" value="dropbox-client-3221"/>
+        <value type="string" value="dropbox-client-3224"/>
+        <value type="string" value="dropbox-client-3206"/>
+        <value type="string" value="dropbox-client-3779"/>
+        <value type="string" value="dropbox-client-3230"/>
+        <value type="string" value="dropbox-client-3213"/>
+        <value type="string" value="dropbox-client-3248"/>
+        <value type="string" value="dropbox-client-4929"/>
+        <value type="string" value="dropbox-client-3702"/>
+        <value type="string" value="dropbox-client-3181"/>
+        <value type="string" value="dropbox-client-3157"/>
+        <value type="string" value="dropbox-client-3785"/>
+        <value type="string" value="dropbox-client-3143"/>
+        <value type="string" value="dropbox-client-3162"/>
+        <value type="string" value="dropbox-client-3124"/>
+        <value type="string" value="dropbox-client-3092"/>
+        <value type="string" value="dropbox-client-3078"/>
+        <value type="string" value="dropbox-client-3112"/>
+        <value type="string" value="dropbox-client-3413"/>
+        <value type="string" value="dropbox-client-3108"/>
+        <value type="string" value="dropbox-client-3117"/>
+        <value type="string" value="dropbox-client-3109"/>
+        <value type="string" value="dropbox-client-33512"/>
+        <value type="string" value="dropbox-client-3081"/>
+        <value type="string" value="dropbox-client-3361"/>
+        <value type="string" value="dropbox-client-3067"/>
+        <value type="string" value="dropbox-client-3073"/>
+        <value type="string" value="dropbox-client-3085"/>
+        <value type="string" value="dropbox-client-3097"/>
+        <value type="string" value="dropbox-client-3137"/>
+        <value type="string" value="dropbox-client-23171"/>
+        <value type="string" value="dropbox-client-3047"/>
+        <value type="string" value="dropbox-client-3036"/>
+        <value type="string" value="dropbox-client-3044"/>
+        <value type="string" value="dropbox-client-3039"/>
+        <value type="string" value="dropbox-client-3027"/>
+        <value type="string" value="dropbox-client-3077"/>
+        <value type="string" value="dropbox-client-3161"/>
+        <value type="string" value="dropbox-client-3031"/>
+        <value type="string" value="dropbox-client-67559"/>
+        <value type="string" value="dropbox-client-3071"/>
+        <value type="string" value="dropbox-client-3066"/>
+        <value type="string" value="dropbox-client-3079"/>
+        <value type="string" value="dropbox-client-3094"/>
+        <value type="string" value="dropbox-client-3113"/>
+        <value type="string" value="dropbox-client-3074"/>
+        <value type="string" value="dropbox-client-3123"/>
+        <value type="string" value="dropbox-client-3080"/>
+        <value type="string" value="dropbox-client-3064"/>
+        <value type="string" value="dropbox-client-3366"/>
+        <value type="string" value="dropbox-client-3069"/>
+        <value type="string" value="dropbox-client-3089"/>
+        <value type="string" value="dropbox-client-3072"/>
+        <value type="string" value="dropbox-client-4133"/>
+        <value type="string" value="dropbox-client-3070"/>
+        <value type="string" value="dropbox-client-3037"/>
+        <value type="string" value="dropbox-client-3007"/>
+        <value type="string" value="dropbox-client-3034"/>
+        <value type="string" value="dropbox-client-3083"/>
+        <value type="string" value="dropbox-client-2925"/>
+        <value type="string" value="dropbox-client-2909"/>
+        <value type="string" value="dropbox-client-2995"/>
+        <value type="string" value="dropbox-client-2938"/>
+        <value type="string" value="dropbox-client-67241"/>
+        <value type="string" value="dropbox-client-2912"/>
+        <value type="string" value="dropbox-client-3006"/>
+        <value type="string" value="dropbox-client-2920"/>
+        <value type="string" value="dropbox-client-2908"/>
+        <value type="string" value="dropbox-client-2922"/>
+        <value type="string" value="dropbox-client-3095"/>
+        <value type="string" value="dropbox-client-2918"/>
+        <value type="string" value="dropbox-client-2943"/>
+        <value type="string" value="dropbox-client-8565"/>
+        <value type="string" value="dropbox-client-2930"/>
+        <value type="string" value="dropbox-client-2927"/>
+        <value type="string" value="dropbox-client-2933"/>
+        <value type="string" value="dropbox-client-2906"/>
+        <value type="string" value="dropbox-client-2915"/>
+        <value type="string" value="dropbox-client-3120"/>
+        <value type="string" value="dropbox-client-2772"/>
+        <value type="string" value="dropbox-client-2791"/>
+        <value type="string" value="dropbox-client-2768"/>
+        <value type="string" value="dropbox-client-2779"/>
+        <value type="string" value="dropbox-client-2782"/>
+        <value type="string" value="dropbox-client-2783"/>
+        <value type="string" value="dropbox-client-2756"/>
+        <value type="string" value="dropbox-client-2784"/>
+        <value type="string" value="dropbox-client-2761"/>
+        <value type="string" value="dropbox-client-2766"/>
+        <value type="string" value="dropbox-client-2745"/>
+        <value type="string" value="dropbox-client-2872"/>
+        <value type="string" value="dropbox-client-2871"/>
+        <value type="string" value="dropbox-client-21527"/>
+        <value type="string" value="dropbox-client-3238"/>
+        <value type="string" value="dropbox-client-2985"/>
+        <value type="string" value="dropbox-client-2931"/>
+        <value type="string" value="dropbox-client-2992"/>
+        <value type="string" value="dropbox-client-2957"/>
+        <value type="string" value="dropbox-client-2945"/>
+        <value type="string" value="dropbox-client-2950"/>
+        <value type="string" value="dropbox-client-4164"/>
+        <value type="string" value="dropbox-client-3176"/>
+        <value type="string" value="dropbox-client-3197"/>
+        <value type="string" value="dropbox-client-3194"/>
+        <value type="string" value="dropbox-client-3060"/>
+        <value type="string" value="dropbox-client-3055"/>
+        <value type="string" value="dropbox-client-3135"/>
+        <value type="string" value="dropbox-client-3032"/>
+        <value type="string" value="dropbox-client-25743"/>
+        <value type="string" value="dropbox-client-3041"/>
+        <value type="string" value="dropbox-client-3050"/>
+        <value type="string" value="dropbox-client-3051"/>
+        <value type="string" value="dropbox-client-3125"/>
+        <value type="string" value="dropbox-client-3023"/>
+        <value type="string" value="dropbox-client-3016"/>
+        <value type="string" value="dropbox-client-3263"/>
+        <value type="string" value="dropbox-client-3003"/>
+        <value type="string" value="dropbox-client-3020"/>
+        <value type="string" value="dropbox-client-32997"/>
+        <value type="string" value="dropbox-client-3008"/>
+        <value type="string" value="dropbox-client-3010"/>
+        <value type="string" value="dropbox-client-2974"/>
+        <value type="string" value="dropbox-client-2972"/>
+        <value type="string" value="dropbox-client-2980"/>
+        <value type="string" value="dropbox-client-2997"/>
+        <value type="string" value="dropbox-client-2990"/>
+        <value type="string" value="dropbox-client-2991"/>
+        <value type="string" value="dropbox-client-2979"/>
+        <value type="string" value="dropbox-client-2964"/>
+        <value type="string" value="dropbox-client-2993"/>
+        <value type="string" value="dropbox-client-33662"/>
+        <value type="string" value="dropbox-client-3038"/>
+        <value type="string" value="dropbox-client-3015"/>
+        <value type="string" value="dropbox-client-3019"/>
+        <value type="string" value="dropbox-client-3026"/>
+        <value type="string" value="dropbox-client-3011"/>
+        <value type="string" value="dropbox-client-3013"/>
+        <value type="string" value="dropbox-client-3017"/>
+        <value type="string" value="dropbox-client-3021"/>
+        <value type="string" value="dropbox-client-3040"/>
+        <value type="string" value="dropbox-client-3030"/>
+        <value type="string" value="dropbox-client-28200"/>
+        <value type="string" value="dropbox-client-3025"/>
+        <value type="string" value="dropbox-client-3001"/>
+        <value type="string" value="dropbox-client-3046"/>
+        <value type="string" value="dropbox-client-2965"/>
+        <value type="string" value="dropbox-client-3024"/>
+        <value type="string" value="dropbox-client-3014"/>
+        <value type="string" value="dropbox-client-3009"/>
+        <value type="string" value="dropbox-client-3012"/>
+        <value type="string" value="dropbox-client-3247"/>
+        <value type="string" value="dropbox-client-3227"/>
+        <value type="string" value="dropbox-client-3110"/>
+        <value type="string" value="dropbox-client-4085"/>
+        <value type="string" value="dropbox-client-3098"/>
+        <value type="string" value="dropbox-client-3330"/>
+        <value type="string" value="dropbox-client-3138"/>
+        <value type="string" value="dropbox-client-3116"/>
+        <value type="string" value="dropbox-client-3439"/>
+        <value type="string" value="dropbox-client-3407"/>
+        <value type="string" value="dropbox-client-3404"/>
+        <value type="string" value="dropbox-client-3420"/>
+        <value type="string" value="dropbox-client-3390"/>
+        <value type="string" value="dropbox-client-3418"/>
+        <value type="string" value="dropbox-client-3414"/>
+        <value type="string" value="dropbox-client-3434"/>
+        <value type="string" value="dropbox-client-3402"/>
+        <value type="string" value="dropbox-client-9610"/>
+        <value type="string" value="dropbox-client-3388"/>
+        <value type="string" value="dropbox-client-3268"/>
+        <value type="string" value="dropbox-client-3245"/>
+        <value type="string" value="dropbox-client-3256"/>
+        <value type="string" value="dropbox-client-3284"/>
+        <value type="string" value="dropbox-client-3240"/>
+        <value type="string" value="dropbox-client-3243"/>
+        <value type="string" value="dropbox-client-3233"/>
+        <value type="string" value="TrueConf"/>
+        <value type="string" value="dropbox-client-3237"/>
+        <value type="string" value="dropbox-client-3255"/>
+        <value type="string" value="dropbox-client-3250"/>
+        <value type="string" value="dropbox-client-3254"/>
+        <value type="string" value="dropbox-client-4221"/>
+        <value type="string" value="dropbox-client-3286"/>
+        <value type="string" value="dropbox-client-3190"/>
+        <value type="string" value="dropbox-client-3180"/>
+        <value type="string" value="dropbox-client-3172"/>
+        <value type="string" value="dropbox-client-3158"/>
+        <value type="string" value="dropbox-client-3184"/>
+        <value type="string" value="dropbox-client-3236"/>
+        <value type="string" value="dropbox-client-3188"/>
+        <value type="string" value="dropbox-client-3182"/>
+        <value type="string" value="dropbox-client-3192"/>
+        <value type="string" value="dropbox-client-3177"/>
+        <value type="string" value="dropbox-client-3170"/>
+        <value type="string" value="dropbox-client-3246"/>
+        <value type="string" value="dropbox-client-3203"/>
+        <value type="string" value="dropbox-client-3191"/>
+        <value type="string" value="dropbox-client-3229"/>
+        <value type="string" value="dropbox-client-3211"/>
+        <value type="string" value="dropbox-client-3201"/>
+        <value type="string" value="dropbox-client-3210"/>
+        <value type="string" value="dropbox-client-3249"/>
+        <value type="string" value="dropbox-client-3193"/>
+        <value type="string" value="dropbox-client-3187"/>
+        <value type="string" value="dropbox-client-4426"/>
+        <value type="string" value="dropbox-client-94639"/>
+        <value type="string" value="dropbox-client-3174"/>
+        <value type="string" value="dropbox-client-3127"/>
+        <value type="string" value="dropbox-client-3133"/>
+        <value type="string" value="dropbox-client-3145"/>
+        <value type="string" value="dropbox-client-3159"/>
+        <value type="string" value="dropbox-client-3129"/>
+        <value type="string" value="dropbox-client-3171"/>
+        <value type="string" value="dropbox-client-2956"/>
+        <value type="string" value="dropbox-client-2968"/>
+        <value type="string" value="dropbox-client-2941"/>
+        <value type="string" value="dropbox-client-2940"/>
+        <value type="string" value="dropbox-client-2955"/>
+        <value type="string" value="dropbox-client-3588"/>
+        <value type="string" value="dropbox-client-2947"/>
+        <value type="string" value="dropbox-client-2958"/>
+        <value type="string" value="dropbox-client-2960"/>
+        <value type="string" value="dropbox-client-2952"/>
+        <value type="string" value="dropbox-client-2949"/>
+        <value type="string" value="dropbox-client-5633"/>
+        <value type="string" value="AutoKey"/>
+        <value type="string" value="modem-manager-gui"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="obs"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value=" brave.instance4779; brave.instance8703; chromium.instance3739; chromium.instance4077; chromium.instance4557;b rave.instance5210;br ave.instance3605;br ave.instance5755;bra ve.instance4736;bra ve.instance7746;brav e.instance5062;brave .instance5692;brave. instance3443;brave. instance4681;brave. instance6891;brave.i nstance4987;brave.in stance5618;brave.ins tance6529;brave.inst ance4912;brave.insta nce42197;brave.insta nce5553;brave.instan ce6277;brave.instanc e4846;brave.instance 5491;brave.instance10247;brave.instance10294;brave.instance19306;brave.instance19:52:19 [191/904] ce22021;brave.instance24004;brave.instance26249;brave.instance3 918;brave.instance3327;brave.instance3391;brave.instance3395;brave.instance3417;brave.instance3446;brave.instance3463;brave.instance3472;brave.instance3508;brave.instance3516;brave.instance35612;brave.instance3625;brave.instance3675;brave.instance3688;brave.instance3735;brave.instance3740;brave.instance3743 ;brave.instance3785;brave.instance3810;brave.instance3811;brave.instance3829;brave.instance3850;brave.instance3881;brave.instance3921;brave.instance3932;brave.instance3975;brave.instance40113;brave.instance4169;brave.instance4174;brave.instance4222;brave.instance4369;brave.instance45064;brave.instance4620;brave.instance4655;brave.instance4667;brave.instance4685;brave.instance4694;brave.instance4715;brave.instance4719;brave.instance4725;brave.instance4731;brave.instance4744;brave.instance4747;brave.instance4763;brave.instance4766;brave.instance4776;brave.instance4778;brave.instance4786;brave.instance4793;brave.instance4797;brave.instance48 21;brave.instance4804;brave.instance4813;brave.instance4822;brave.instance4826;brave.instance4829;brave.instance4831;brave.instance4834;brave.instance4837;brave.instance4853;brave.instance4866;brave.instance4880;brave.instance4881;brave.instance4896;brave.instance4902;brave.instance4920;brave.instance4933;brave.instance4937;brave.instance4945;brave.instance4959;brave.instance4966;brave.instance5 910;brave.instance5004;brave.instance5008;brave.instance5010;brave.instance5036;brave.instance5054;brave.instance5059;brave.instance5069;brave.instance5080;brave.instance5131;brave.instance5132;brave.instance5152;brave.instance5166;brave.instance5227;brave.instance5245;brave.instance5270;brave.instance5298;brave.instance531 8;brave.instance5315;brave.instance5379;brave.instance5405;brave.instance5408;brave.instance5421;brave.instance5454;brave.instance5456;brave.instance5501;brave.instance5502;brave.instance5506;brave.instance5522;brave.instance5533;brave.instance5536;brave.instance5554;brave.instance5570;brave.instance5588;brave.instance5595;brave.instance5596;brave.instance5610;brave.instance5630;brave.instance5631;brave.instance5633;brave.instance5641;brave.instance5648;brave.instance5687;brave.instance5698;brave.instance5700;brave.instance5707;brave.instance5708;brave.instance5712;brave.instance5717;brave.instance5761;brave.instance5764;brave.instance5776;brave.instance5777;brave.instance5784;brave.instance5803 ;brave.instance5806;brave.instance5836;brave.instance5842;brave.instance5884;brave.instance5889;brave.instance5897;brave.instance5934;brave.instance5938;brave.instance6025;brave.instance6077;brave.instance6163;brave.instance6246;brave.instance6326;brave.instance6328;brave.instance6397;brave.instance6445;brave.instance6456;brave.instance6481;brave.instance6554;brave.instance6569;brave.instance6651;brave.instance6654;brave.instance6700;brave.instance6744;brave.instance7096;brave.instance7133;brave.instance7160;brave.instance7336;brave.instance7399;brave.instance7725;brave.instance7857;brave.instance8019;brave.instance8312;brave.instance8484;brave.instance8560;brave.instance8676;brave.instance8872;brave.instance9116;c hromium.instance119034;c hromium.instance24300;c hromium.instance2904;c hromium.instance3313;c hromium.instance8513;ch romium.instance1908;ch romium.instance2197;ch romium.instance3117;ch romium.instance3425;ch romium.instance3715;ch romium.instance4454;ch19:52:19 [131/904] 09;chr omium.instance4026;chr omium.instance65346;chro mium.instance102289;chro mium.instance1875;chro mium.instance32974;chro mium.instance3698;chro mium.instance5344;chrom ium.instance21681;chrom ium.instance3397;chrom ium.instance4007;chrom ium.instance76925;chrom19:52:19 [101/904] hromium.instance3560;chromi um.instance12983;chromi um.instance2388;chromi um.instance3262;chromi um.instance4402;chromiu m.instance28106;chromiu m.instance3079;chromiu m.instance35237;chromiu m.instance3672;chromiu m.instance5092;chromium .instance15617;chromium .instance1849;chromium .instance3239;chromium .instance3382;chromium .instance3964;chromium .instance4336;chromium .instance61291;chromium. instance20910;chromium. instance2336;chromium. instance2566;chromium. instance3063;chromium. instance72522;chromium.i nstance3499;chromium.i nstance3654;chromium.i nstance4277;chromium.in stance3209;chromium.in stance39153;chromium.ins tance1804;chromium.ins tance2023;chromium.ins tance2736;chromium.ins tance30525;chromium.inst ance1244;chromium.inst ance22675;chromium.inst ance2513;chromium.inst ance3645;chromium.inst ance58565;chromium.inst ance6957;chromium.inst19:52:19 [161/904] .instance11506;chromium.insta nce1999;chromium.insta nce3189;chromium.insta nce3367;chromium.insta nce3486;chromium.insta nce3865;chromium.insta nce42238;chromium.insta nce99696;chromium.instan ce3039;chromium.instan19:52:19 [71/904] nstance4883;chromium.instanc e14461;chromium.instanc e17582;chromium.instanc e3615;chromium.instanc e3850;chromium.instanc e4167;chromium.instanc e4727;chromium.instanc e9487;chromium.instance 1974;chromium.instance 3172;chromium.instance 3358;chromium.instance 5674;chromium.instance1 217;chromium.instance10147;chromium.instance10182;chromium.instance10209;chromium.instance106318;chromium.instance10690;chromium.instance108677;chromium.instance10990;chromium.instance11046;chromium.instance11051;chromium.instance11071;chromium.instance11215;chromium.instance11270;chromium.instance115758;chromium.instance1165;chromium.instance116593;chromium.instance1171;chromium.instance1190;chromium.instance11929;chromium.instance1204;chromium.instance1206;chromium.instance1216;chromium.instance1221;chromium.instance12238;chromium.instance1237;chromium.instance12402;chromium.instance12437;chromium.instance12588;chromium.instance12729;chromium.instance12809;chromium.instance12819;chromium.instance12961;chromium.instance13080;chromium.instance13109;chromium.instance13269;chromium.instance13784;chromium.instance1380 0;chromium.instance13980;chromium.instance1419;chromium.instance1428;chromium.instance1434;chromium.instance14454;chromium.instance14517;chromium.instance15013;chromium.instance15057;chromium.instance15176;chromium.instance15201;chromium.instance15627;chromium.instance1566993;chromium.instance157805;chromium.instance15985;chromium.instance164 4;chromium.instance16444;chromium.instance1646;chromium.instance1681;chromium.instance1736;chromium.instance17553;chromium.instance17754;chromium.instance1792;chromium.instance1793;chromium.instance1800;chromium.instance1803;chromium.instance1810;chromium.instance18197;chromium.instance1826;chromium.instance18291;chromium.instance1848;chromium.instance1855;chromium.instance1864;chromium.instance18670;chromium.instance1869;chromium.instance18728;chromium.instance1876;chromium.instance1884;chromium.instance1896;chromium.instance1897;chromium.instance1907;chromium.instance1910;chromium.instance19206;chromium.instance1926;chromium.instance19278;chromium.instance195 26;chromium.instance1953;chromium.instance1960;chromium.instance1962;chromium.instance1969;chromium.instance1971;chromium.instance1978;chromium.instance1982;chromium.instance19823;chromium.instance1988;chromium.instance1990;chromium.instance2000;chromium.instance2001;chromium.instance2007;chromium.instance2010;chromium.instance2020;chromium.instance20329;chromium.instance2040;chromium.instance2051;chromium.instance2061;chromium.instance2075;chromium.instance2105;chromium.instance2124;chromium.instance21283;chromium.instance2143;chromium.instance2147;chromium.instance2172;chromium.instance2178;chromium.instance2189;chromium.instance2192;chromium.instance2193;chromium.instance21988;chromium.instance2200;chromium.instance2201;chromium.instance22014;chromium.instance221 0;chromium.instance22201;chromium.instance222536;chromium.instance22391;chromium.instance2243;chromium.instance22546;chromium.instance2294;chromium.instance2295;chromium.instance2302;chromium.instance23044;chromium.instance2324;chromium.instance2361;chromium.instance2365;chromium.instance2369;chromium.instance2377;chromium.instance23783;chromium.instance23919;chromium.instance2399;chromium.instance24 93;chromium.instance24229;chromium.instance2423;chromium.instance24271;chromium.instance2452;chromium.instance2460;chromium.instance24663;chromium.instance2467;chromium.instance24960;chromium.instance25006;chromium.instance25028;chromium.instance2505;chromium.instance25117;chromium.instance25238;chromium.instance2539;chromium.instance25401;chromium.instance2545;chromium.instance2552;chromium.instance25706;chromium.instance25788;chromium.instance25900;chromium.instance2591;chromium.instance25926;chromium.instance26025;chromium.instance26357;chromium.instance2672;chromium.instance26728;chromium.instance2699;chromium.instance27111;chromium.instance27162;chromium.instance27230;chromium.instance27272;chromium.instance27295;chromium.instance27424;chromium.instance2770;chromium.instance27857;chromium.instance27864;chromium.instance2798;chromium.instance28321;chromium.instance2850;chromium.instance28542;chromium.instance2880;chromium.instance28846;chromium.instance29 71;chromium.instance2925;chromium.instance29578;chromium.instance2965;chromium.instance29685;chromium.instance29809;chromium.instance3 4628;chromium.instance3 595;chromium.instance3 778;chromium.instance3001;chromium.instance30012;chromium.instance3031;chromium.instance3036;chromium.instance3041;chromium.instance30438;chromium.instance3049;chromium.instance3050;chromium.instance3052;chromium.instance3054;chromium.instance3055;chromium.instance3058;chromium.instance3060;chromium.instance3062;chromium.instance3069;chromium.instance3070;chromium.instance3071;chromium.instance3073;chromium.instance3076;chromium.instance30806;chromium.instance3081;chromium.instance3100;chromium.instance31021;chromium.instance31128;chromium.instance31204;chromium.instance3121;chromium.instance3138;chromium.instance314 5;chromium.instance31423;chromium.instance3146;chromium.instance3147;chromium.instance3149;chromium.instance3158;chromium.instance31593;chromium.instance3173;chromium.instance3174;chromium.instance3176;chromium.instance31797;chromium.instance3180;chromium.instance3192;chromium.instance31929;chromium.instance3202;chromium.instance3206;chromium.instance3207;chromium.instance3213;chromium.instance3228;chromium.instance3236;chromium.instance3238;chromium.instance32383;chromium.instance3240;chromium.instance3241;chromium.instance3243;chromium.instance3245;chromium.instance3247;chromium.instance3275;chromium.instance3280;chromium.instance3285;chromium.instance3296;chromium.instance3297;chromium.instance3299;chromium.instance3301;chromium.instance3303;chromium.instance3308;chromium.instance3309;chromium.instance3319;chromium.instance3326;chromium.instance3327;chromium.instance3328;chromium.instance3332 ;chromium.instance3348;chromium.instance33498;chromium.instance3353;chromium.instance3355;chromium.instance33553;chromium.instance3360;chromium.instance3362;chromium.instance33620;chromium.instance3363;chromium.instance3365;chromium.instance33737;chromium.instance33769;chromium.instance33791;chromium.instance3381;chromium.instance33811;chromium.instance3384;chromium.instance3386;chromium.instance3390;chromium.instance3392;chromium.instance33954;chromium.instance3402;chromium.instance3405;chromium.instance34056;chromium.instance3417;chromium.instance3420;chromium.instance3428;chromium.instance34332;chromium.instance3436;chromium.instance344 1;chromium.instance34409;chromium.instance3445;chromium.instance3448;chromium.instance3450;chromium.instance3455;chromium.instance3462;chromium.instance3465;chromium.instance3470;chromium.instance34702;chromium.instance3481;chromium.instance3483;chromium.instance3487;chromium.instance34880;chromium.instance3491;chromium.instance34912;chromium.instance3494;chromium.instance34999;chromium.instance3504;chromium.instance3505;chromium.instance3518;chromium.instance3523;chromium.instance3540;chromium.instance3541;chromium.instance3544;chromium.instance3547;chromium.instance3548;chromium.instance3549;chromium.instance35495;chromium.instance3551;chromium.instance3555;chromium.instance3557;chromium.instance3561;chromium.instance3562;chromium.instance3567;chromium.instance3576;chromium.instance3577 ;chromium.instance3583;chromium.instance3584;chromium.instance3585;chromium.instance35909;chromium.instance3594;chromium.instance3600;chromium.instance3606;chromium.instance3608;chromium.instance3609;chromium.instance3612;chromium.instance36155;chromium.instance3623;chromium.instance3632;chromium.instance3637;chromium.instance3644;chromium.instance3646;chromium.instance36490;chromium.instance3650;chromium.instance3651;chromium.instance3653;chromium.instance3656;chromium.instance36680;chromium.instance3669;chromium.instance3670;chromium.instance3671;chromium.instance3677;chromium.instance3685;chromium.instance3686;chromium.instance36917;chromium.instance3694;chromium.instance3701;chromium.instance3703;chromium.instance3710;chromium.instance3712;chromium.instance3714;chromium.instance3719;chromium.instance3720;chromium.instance3734;chromium.instance3736;chromium.instance3738;chromium.instance3744;chromium.instance3746;chromium.instance3748;chromium.instance375 5;chromium.instance3750;chromium.instance3763;chromium.instance3766;chromium.instance3768;chromium.instance3769;chromium.instance3777;chromium.instance3779;chromium.instance3804;chromium.instance3811;chromium.instance3826;chromium.instance3847;chromium.instance3855;chromium.instance3857;chromium.instance3859;chromium.instance3861;chromium.instance3863;chromium.instance3883;chromium.instance3887;chromium.instance3897;chromium.instance38979;chromium.instance3904;chromium.instance3923;chromium.instance3935;chromium.instance3945;chromium.instance3949;chromium.instance3958;chromium.instance3972;chromium.instance3980;chromium.instance39874;chromium.instance3989;chromium.instance4001;chromium.instance4011;chromium.instance4014;chromium.instance4019;chromium.instance4020;chromium.instance4023;chromium.instance4053;chromium.instance4063;chromium.instance40634;chromium.instance4072;chromium.instance4074;chromium.instance40844;chromium.instance41 39;chromium.instance4128;chromium.instance4130;chromium.instance4135;chromium.instance4142;chromium.instance41443;chromium.instance4154;chromium.instance4164;chromium.instance4166;chromium.instance4181;chromium.instance4209;chromium.instance4211;chromium.instance4219;chromium.instance4223;chromium.instance4234;chromium.instance4236;chromium.instance4248;chromium.instance42535;chromium.instance4275;chromium.instance4278;chromium.instance4280;chromium.instance4303;chromium.instance4315;chromium.instance4334;chromium.instance4338;chromium.instance4341;chromium.instance4350;chromium.instance4369;chromium.instance4380;chromium.instance441127;chromium.instance4419;chromium.instance4432;chromium.instance4438;chromium.instance4448;chromium.instance4480;chromium.instance4485;chromium.instance4508;chromium.instance4510;chromium.instance4534;chromium.instance4570;chromium.instance4589;chromium.instance4594;chromium.instance4600;chromium.instance462 8;chromium.instance4632;chromium.instance4637;chromium.instance46697;chromium.instance4680;chromium.instance46935;chromium.instance47408;chromium.instance4771;chromium.instance4792;chromium.instance4793;chromium.instance4812;chromium.instance4813;chromium.instance4830;chromium.instance4836;chromium.instance48365;chromium.instance4843;chromium.instance4897;chromium.instance4909;chromium.instance5044;chromium.instance5048;chromium.instance50907;chromium.instance5141;chromium.instance5144;chromium.instance5230;chromium.instance52307;chromium.instance5322;chromium.instance5367;chromium.instance54097;chromium.instance54263;chromium.instance55052;chromium.instance5521 ;chromium.instance5528;chromium.instance55751;chromium.instance5590;chromium.instance55978;chromium.instance5659;chromium.instance56829;chromium.instance5702;chromium.instance57611;chromium.instance5788;chromium.instance5825;chromium.instance5898;chromium.instance59027;chromium.instance5960;chromium.instance5984;chromium.instance60686;chromium.instance6132;chromium.instance61848;chromium.instance6225;chromium.instance63675;chromium.instance6452;chromium.instance65617;chromium.instance6626;chromium.instance6651;chromium.instance66545;chromium.instance668 0;chromium.instance67044;chromium.instance6783;chromium.instance684849;chromium.instance685578;chromium.instance6924;chromium.instance69599;chromium.instance6964;chromium.instance6984;chromium.instance7211;chromium.instance72376;chromium.instance7287;chromium.instance7364;chromium.instance73967;chromium.instance7423;chromium.instance7666;chromium.instance7717;chromium.instance7850;chromium.instance7896;chromium.instance80536;chromium.instance8353;chromium.instance85184;chromium.instance8673;chromium.instance8707;chromium.instance8822;chromium.instance886 1;chromium.instance8890;chromium.instance89567;chromium.instance8993;chromium.instance90209;chromium.instance9055;chromium.instance9502;chromium.instance9606;chromium.instance9638;chromium.instance9793;chromium.instance9927;firefo x.instance_1_90;firefox.in stance_1_205;firefox.insta nce3626;firefox.instance107493;firefox.instance20126;firefox.instance2436;firefox.instance2624;firefox.instance3520;firefox.instance49016;firefox.instance4943;firefox.instance_1_103;firefox.instance_1_159;firefox.instance_1_186;firefox.instance_1_235;firefox.instance_1_68;firefox.instance_1_71;firefox.instance_1_75;firefox.instance_1_88;firefox.instance_1_97;TelegramDesktop;vlc"/>
+      <property name="known-players" type="string" value="Brave;org.telegram.desktop._023d4009d7ff6bfa2363e883ec2f16df;vlc"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-date-format" type="string" value="%d-%m"/>
+      <property name="digital-date-font" type="string" value="Droid Sans Fallback Bold 9"/>
+      <property name="digital-time-font" type="string" value="Droid Sans Fallback Bold 9"/>
+    </property>
+    <property name="plugin-7" type="string" value="xkb">
+      <property name="show-notifications" type="bool" value="false"/>
+      <property name="display-type" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="showdesktop"/>
+    <property name="plugin-13" type="string" value="systemload">
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="cpu" type="empty">
+        <property name="label" type="string" value=""/>
+        <property name="color" type="array">
+          <value type="double" value="0.8784313725490196"/>
+          <value type="double" value="0.10588235294117647"/>
+          <value type="double" value="0.14117647058823529"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="memory" type="empty">
+        <property name="label" type="string" value=""/>
+      </property>
+    </property>
+    <property name="plugin-14" type="string" value="cpufreq"/>
+  </property>
+</channel>
